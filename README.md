@@ -1,3 +1,6 @@
+# varghese@DESKTOP-OODIU93:~/Bash-Commands$
+
+
 # 🚀 Ubuntu GitHub SSH Setup Guide
 
 This guide walks through setting up **SSH authentication** for GitHub on Ubuntu/WSL, so you can push/pull without entering passwords or tokens.
