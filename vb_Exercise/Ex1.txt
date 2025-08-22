@@ -1,0 +1,18 @@
+
+cat used to read files
+How to move file to folder: mv hello_copy.sh/vb_Exercise cat used to read files
+echo "This is my first line" > Ex1.txt
+# Overwrite or create file
+echo "First line" > Ex1.txt
+
+# Append new line
+echo "Second line" >> Ex1.txt
+
+# Check content
+cat Ex1.txt
+
+
+#OutPut
+First line
+Second line
+
