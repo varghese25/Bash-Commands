@@ -15,4 +15,27 @@ cat Ex1.txt
 #OutPut
 First line
 Second line
+-------------------------
+Day 2 Aug 23 2025
 
+Using the cd Command: cd directory_name 
+cd Bash-command/ 
+cd .. Move up one directory level
+cd ~ Change to the home directory
+cd - Switch to the previous directory
+cd / Change to the root directory
+
+Installed terminator 
+Used to open multiple tab: 
+
+Use Terminator Features
+
+Split terminal vertically: Ctrl+Shift+E
+
+Split terminal horizontally: Ctrl+Shift+O
+
+Close a terminal: Ctrl+Shift+W
+
+Open new tab: Ctrl+Shift+T
+
+Move between terminals: Ctrl+Shift+Arrow keys
