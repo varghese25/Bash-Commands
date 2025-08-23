@@ -1,6 +1,8 @@
 
 cat used to read files
+
 How to move file to folder: mv hello_copy.sh/vb_Exercise cat used to read files
+
 echo "This is my first line" > Ex1.txt
 
 
@@ -11,4 +13,46 @@ echo "First line" > Ex1.txt
 echo "Second line" >> Ex1.txt
 
 # Check content
-cat 
+
+--------------------------------------------
+
+Aug 23 2025 Day 2 
+
+Bash cd - Change Directory
+
+cd Bash-Commands
+
+cd .. Move up one directory level
+cd ~ Change to the home directory
+cd - Switch to the previous directory
+cd / Change to the root directory
+
+
+Installed terminator: Used to open Multiple Window
+
+
+Use Terminator Features
+
+Split terminal vertically: Ctrl+Shift+E
+
+Split terminal horizontally: Ctrl+Shift+O
+
+Close a terminal: Ctrl+Shift+W
+
+Open new tab: Ctrl+Shift+T
+
+Move between terminals: Ctrl+Shift+Arrow keys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
