@@ -1,3 +1,53 @@
+# 📝 Vim Swap Files & Terminator Guide (Ubuntu/WSL)
+
+---
+
+## 1️⃣ Vim Swap Files (`.swp`)
+
+When you edit a file with **Vim**, it creates a hidden swap file:
+
+- Example: editing `Ex1.txt` creates `.Ex1.txt.swp`  
+- Purpose:
+  - Tracks unsaved changes
+  - Helps recover your work if Vim crashes
+
+### Common scenarios:
+
+| Situation | What to do |
+|-----------|------------|
+| `.swp` exists, file open elsewhere | Vim warns you. Options: Recover (R), Edit Anyway (E), Open Read-only (O) |
+| Unsaved changes present | Open Vim → Press `R` to recover → Save with `:wq` |
+| No unsaved changes / safe to remove | Delete swap file: `rm .Ex1.txt.swp` |
+
+**Tip:** If you accidentally delete a `.swp` file **before saving**, unsaved changes are lost. Always save frequently with `:w` or `:wq`.
+
+---
+
+## 2️⃣ Terminator Terminal Emulator
+
+**Terminator** is a Linux terminal with advanced features like split panes and tabs.
+
+### Installation
+```bash
+sudo apt update
+sudo apt install terminator
+# Launch Terminator
+terminator
+
+| Action                      | Shortcut                |
+| --------------------------- | ----------------------- |
+| Split terminal vertically   | `Ctrl+Shift+E`          |
+| Split terminal horizontally | `Ctrl+Shift+O`          |
+| Open new tab                | `Ctrl+Shift+T`          |
+| Close terminal              | `Ctrl+Shift+W`          |
+| Move between terminals      | `Ctrl+Shift+Arrow keys` |
+
+
+
+
+
+
+
 # varghese@DESKTOP-OODIU93:~/Bash-Commands$
 
 
@@ -109,4 +159,12 @@ git push
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
+
+
+
+
+
+
+
+
 
