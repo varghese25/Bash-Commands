@@ -43,12 +43,49 @@ Open new tab: Ctrl+Shift+T
 
 Move between terminals: Ctrl+Shift+Arrow keys
 
+-----------------------------------------------
+
+Aug-26-2025
+
+cat -> commands below
+
+-n - Add numbers to each line
+-b - Add numbers only to lines with text
+-s - Remove extra empty lines
+-v - Show non-printing characters (except for tabs and end of line)
+
+
+
+Concatenate two files
+
+
+cat command file name > newfileName
+
+cat tiju.txt tijuNew.txt > combinetijuAndtijuNew.txt 
 
 
 
 
 
+Copy file from soure to destination
 
+
+varghese@DESKTOP-OODIU93:~/Bash-Commands/vb_Exercise$ cp varghese.txt varghese_copy.txt
+
+
+
+varghese@DESKTOP-OODIU93:~/Bash-Commands/vb_Exercise$ cp varghese_copy.txt ../testingFolder/
+varghese@DESKTOP-OODIU93:~/Bash-Commands/vb_Exercise$ cd ..
+varghese@DESKTOP-OODIU93:~/Bash-Commands$ cd testingFolder/
+varghese@DESKTOP-OODIU93:~/Bash-Commands/testingFolder$ ll
+total 16
+drwxr-xr-x 2 varghese varghese 4096 Aug 26 21:05 ./
+drwxr-xr-x 6 varghese varghese 4096 Aug 26 19:26 ../
+-rw-r--r-- 1 varghese varghese   14 Aug 26 19:49 copy_tiju.txt
+-rw-r--r-- 1 varghese varghese   42 Aug 26 20:43 tijuNew_Copy.txt
+-rw-r--r-- 1 varghese varghese    0 Aug 26 20:57 varghese.txt
+-rw-r--r-- 1 varghese varghese    0 Aug 26 21:05 varghese_copy.txt
+varghese@DESKTOP-OODIU93:~/Bash-Commands/testingFolder$
 
 
 
