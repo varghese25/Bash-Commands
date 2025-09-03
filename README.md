@@ -1,4 +1,9 @@
-# 📝 Vim Swap Files & Terminator Guide (Ubuntu/WSL)
+
+# Bash cp - Copy Files and Directories
+
+
+
+e@DESKTOP-OODIU93:~/Bash-Commands/vb_Exercise$ cp varghese_copy.txt ../testingFolder/ 📝 Vim Swap Files & Terminator Guide (Ubuntu/WSL)
 
 ---
 
@@ -159,8 +164,6 @@ git push
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
-
-
 
 
 
