@@ -1,7 +1,31 @@
 
+
+
+# Date Sep-04-2025
+
+# Bash mv - Move file one place to another and Same command used to Rename file
+varghese@DESKTOP-OODIU93:~/Bash-Commands/testingFolder$ mv tiju.txt Renamed_To_tiju.txt # Renamd
+
+# This line moved tiju.txt to testing folder
+varghese@DESKTOP-OODIU93:~/Bash-Commands$ mv tiju.txt ../testingFolder/ 
+
+
+# rm - Remove files and Directories
+rm -r  Delete a folder and everything inside it
+rm -i  Ask before deleting each file
+rm -f  Force delete without asking
+rm -v  Verbose mode, show files being removed
+
+
+# touch Command - Change File Timestamps
+touch -t 202509041830 Renamed_To_tiju.txt # update YYMMDDHHMM (18:30)
+-a - Update only when the file was last read
+-m - Update only when the file was last changed
+-t - Set the timestamp to a specific time
+-c - Do not create any files
+
+
 # Bash cp - Copy Files and Directories
-
-
 
 e@DESKTOP-OODIU93:~/Bash-Commands/vb_Exercise$ cp varghese_copy.txt ../testingFolder/ 📝 Vim Swap Files & Terminator Guide (Ubuntu/WSL)
 
