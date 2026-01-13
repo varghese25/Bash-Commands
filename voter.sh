@@ -1,6 +1,8 @@
 #!/bin/bash 
 
 
+
+echo "====================================="
 echo Hi varghese,Hope Your doing well..Go to this path for learning basic /home/varghese/bash_varghese
 
 
