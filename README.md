@@ -5,6 +5,69 @@
 -- Watch from 1:05.34
 
 
+# SSH Setup (GitHub)
+
+This document explains how to set up SSH keys and use them with GitHub for `git push` / `git pull`.
+
+## 1) Check if SSH keys exist
+```bash
+ls -la ~/.ssh
+
+2) Generate an SSH key (if not exist)
+bash
+
+ssh-keygen -t ed25519 -C "your\_email@gmail.com"
+
+    Press Enter to use the default file location
+    Enter passphrase:
+        Press Enter twice for no passphrase, OR
+        Type a passphrase if you want extra security
+
+3) Copy your public key
+bash
+
+cat ~/.ssh/id\_ed25519.pub
+
+Copy the full output (single line).
+4) Add the SSH key to GitHub
+
+Go to:
+
+    GitHub → Settings → SSH and GPG keys
+    Click New SSH key
+    Paste the public key and click Add SSH key
+
+5) Test SSH connection
+bash
+
+ssh -T git@github.com
+
+You should see a success message like:
+Hi <username>! You've successfully authenticated...
+6) Change your Git remote to SSH
+
+Check current remote:
+bash
+
+git remote -v
+
+Set remote URL to SSH:
+bash
+
+git remote set-url origin git@github.com:USERNAME/REPO.git
+
+Verify:
+bash
+
+git remote -v
+
+7) Push using SSH
+bash
+
+git push
+
+
+
 # July 23 2026
 # trial
 # Date Sep-04-2025
