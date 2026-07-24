@@ -5,6 +5,9 @@
 -- Watch from 1:05.34
 
 
+
+# Updated 24July2026
+
 # SSH Setup (GitHub)
 
 This document explains how to set up SSH keys and use them with GitHub for `git push` / `git pull`.
