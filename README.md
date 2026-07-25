@@ -4,7 +4,20 @@
 -- https://youtu.be/nF5mgnV5rHM?si=WSaFfVFb9lUNpJya
 -- Watch from 1:05.34
 
-
+#In Linux shell, 2 represents the standard error stream (stderr).
+Every Linux command normally has three standard streams:
+Number
+Name
+Purpose
+0
+stdin
+Input from keyboard or another command
+1
+stdout
+Normal output (success messages)
+2
+stderr
+Error messages..
 
 # Updated 24July2026
 # 07-25-2026 Install smmart Mirroring in my Laptop failed due to slow internet connection
