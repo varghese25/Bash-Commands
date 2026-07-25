@@ -7,7 +7,7 @@
 
 
 # Updated 24July2026
-
+# 07-25-2026 Install smmart Mirroring in my Laptop failed due to slow internet connection
 # SSH Setup (GitHub)
 
 This document explains how to set up SSH keys and use them with GitHub for `git push` / `git pull`.
