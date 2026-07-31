@@ -6,7 +6,12 @@
 
 
 
-# Shell script written which search and Update local & remote change in GitHub Push & Pull 29-July-2026 Test with ReadMe.m
+--disk usage script
+
+-- usage=`df -h | grep "efivarfs" | awk '{print $5}' | sed 's|%||g'` # Sed dont enter charatcer 's|%|here dont enter any chart it will say ill operater during execution|'
+
+
+# Shell script written which search and Update local & remote change in GitHub Push & Pull 29-July-2026 Test with ReadMe.im
 
 #In Linux shell, 2 represents the standard error stream (stderr).
 Every Linux command normally has three standard streams:
