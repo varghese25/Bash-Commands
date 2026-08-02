@@ -6,10 +6,28 @@
 # done
 #
 #
-for user in varghese root
+for user in varghese root 
  do
 	 echo ""
 	 echo $user
 	 id $user
+	 echo ""
+ done
+for loop in varghese
+	 do
+		 echo ""
+		 echo $loop
+		 echo ""
+ done
+
+
+
+
+
+
+ for username in `cat user_list.txt`
+ do
+	 echo ""
+	 echo $username
 	 echo ""
  done
