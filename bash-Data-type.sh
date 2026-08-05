@@ -1,4 +1,9 @@
-
+
+
+#!/bin/bash
+#
+#
+#PR Prtice
 
 String comparisons (inside [ ... ]):
 
