@@ -1,0 +1,7 @@
+
+# Working Tree  How it works
+step1 : main branch file create called workingtree.txt
+step2:  Already another new_branch exist. Before git add. & commit this available in both of branch.
+step3:  From main branch git add Rebase_workingtree.txt; it wont appear in the new_branch
+step4:  if git checkout new_branch and ls-lrt your can't find this working.txt
+
